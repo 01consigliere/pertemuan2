@@ -25,7 +25,7 @@ if(sx=="F"):
         y = (x - 32)*5/9
     elif(sy=="R"):
         y = (x - 32)*4/9
-    elif(sy=="C"):
+    elif(sy=="K"):
         y = ((x - 32)*5/9) + 273
 if(sx=="R"):
     if(sy=="R"):
@@ -34,7 +34,7 @@ if(sx=="R"):
         y = (x)*5/4
     elif(sy=="F"):
         y = (x - 32)*9/4
-    elif(sy=="C"):
+    elif(sy=="K"):
         y = (x*5/4) + 273
 if(sx=="K"):
     if(sy=="K"):
