@@ -18,4 +18,8 @@ if(sx=="C"):
     elif(sy=="K"):
         y = x + 273
 
-    
+
+
+
+
+st.write( x, " ", sx, "=", y, " ", sy)
