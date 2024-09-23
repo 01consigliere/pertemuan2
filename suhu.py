@@ -4,7 +4,7 @@ x = st.number_input("masukkan angka")
 sx = st.text_input(
     "masukkan satuan")
 st.write("kamu punya", x, sx)
-sy = st.checkbox(
+sy = st.selectbox(
     "piilih satuan",
     ("C", "F", "R", "K"))
 y = 0
