@@ -1,9 +1,7 @@
 import streamlit as st
 
 x = st.number_input("masukkan angka")
-def sx = st.selectbox(
-    "piilih satuan",
-    ("C", "F", "R", "K"))
+def sx = st.text_input("masukkan angka")
 st.write("kamu punya", x, sx)
 sy = st.selectbox(
     "piilih satuan",
