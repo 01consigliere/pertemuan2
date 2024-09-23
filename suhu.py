@@ -1,11 +1,13 @@
 import streamlit as st
 
 x = st.number_input("masukkan angka")
-def sx = st.text_input("masukkan angka")
+sx = st.selectbox(
+    "piilih satuan",
+    ("C", "F", "R", "K"), key="sx")
 st.write("kamu punya", x, sx)
 sy = st.selectbox(
     "piilih satuan",
-    ("C", "F", "R", "K"))
+    ("C", "F", "R", "K"), key="sy")
 y = 0
 if(sx=="C"):
     if(sy=="C"):
